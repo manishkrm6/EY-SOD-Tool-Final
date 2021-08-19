@@ -1,0 +1,19 @@
+
+   If tblname = "TSTCT" Or tblname = "TSTCA" Or tblname = "TSTC" Or tblname = "USOBT_C" Or tblname = "USOBX_C" Or tblname = "ADRP" Or tblname = "UST12" Then
+                        OutputTxt = tblData(intRow, "WA")
+                        OutputTxt = Replace(OutputTxt, "'", "")
+                        OutputTxt = Replace(OutputTxt, ",", "")
+                        OutputTxt = Replace(OutputTxt, "  ", "")
+                        OutputTxt = Replace(OutputTxt, "\¤", "¤")
+                        OutputTxt = Replace(OutputTxt, "¤", "','")
+                    Else
+                        OutputTxt = tblData(intRow, "WA")
+                        OutputTxt = Replace(OutputTxt, "'", "")
+                        OutputTxt = Replace(OutputTxt, ",", "")
+                        OutputTxt = Replace(OutputTxt, "`", "")
+                        OutputTxt = Replace(OutputTxt, "  ", "")
+                        OutputTxt = Replace(OutputTxt, "\¤", "¤")
+                        OutputTxt = Replace(OutputTxt, "¤", "','")
+                    End If
+                    OutputTxt = Replace(OutputTxt, "\'", "'")
+                    If Right(OutputTxt, 1) = "\" Then OutputTxt = Left(OutputTxt, Len(OutputTxt) - 1)

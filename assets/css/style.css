@@ -1,0 +1,17 @@
+.text-center {
+    text-align: center;
+}
+
+.bg-pattern {
+    background-size: cover;
+    background: #f7f7f7;
+    background-image: none !important;
+}
+
+body.authentication-bg {
+    background-color: #6f39a5;
+}
+
+.indo-overflow{
+	overflow-x: scroll;
+}

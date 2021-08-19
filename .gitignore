@@ -1,0 +1,16 @@
+
+##application/config/routes.php
+application/config/config.php
+
+
+uploads/Clients/*
+dustbin/
+eynodegen/node_modules
+eynodegen/logs/dberror.log
+
+
+
+modernui/*
+
+
+

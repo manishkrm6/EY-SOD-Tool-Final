@@ -1,0 +1,16 @@
+--- Sql Command For Active Database Connections ---
+ 
+show status where `variable_name` = 'Threads_connected';
+
+-- Window Command To Get Runing Process on Particular Port Details
+netstat -ano | findstr :3000
+
+-- Window Command To Kill a Runing Process on Particular Port
+taskkill /PID <PID> /F
+
+
+
+
+
+
+

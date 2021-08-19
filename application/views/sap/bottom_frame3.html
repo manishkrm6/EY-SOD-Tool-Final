@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+
+   <head>
+      <! this is function to reload page >
+
+ <script type="text/javascript">
+      window.onload = setupRefresh;
+
+      function setupRefresh() {
+          setInterval("refreshFrame();", 5000);
+      }
+      function refreshFrame() {
+        parent.files.location.reload();
+      }
+  </script>
+
+   </head>
+	
+</html>

@@ -1,0 +1,2 @@
+CREATE TABLE if not exists `zcodes` (`zcode` varchar(50) DEFAULT NULL,`dsc` varchar(100) DEFAULT NULL,`proc` varchar(3) DEFAULT NULL,`subproc` varchar(45) DEFAULT NULL,`type` varchar(11) DEFAULT NULL,`activity` varchar(5) DEFAULT NULL,`add_info` varchar(1000) DEFAULT NULL,`tcode` varchar(500) DEFAULT NULL, UNIQUE KEY (`zcode`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+insert into zcodes(zcode,dsc) select * from tstct where tcode like 'y%' or tcode like 'z%';

@@ -1,0 +1,101 @@
+
+/*OMMOM PAGE CSS START*/
+.dashborder{
+	border-left:5px solid lightblue
+}
+.colorone{background-color: #206bc4}
+.colortwo{background-color: #6e9fd9}
+.colorothree{background-color: #c7daf0!important}
+.riskvioted3{background-color:#80b3ff!important}
+.riskvioted4{background-color:#afc4ed!important}
+.colorex{color:#b3d1ff}
+.colorfour{color:#b3d1ff}
+
+.dashfont{font-size: 18px!important}
+
+.color1{color:#206bc4;}
+.color2{color:#6e9fd9;}
+.color3{color:#c7daf0;}
+.color4{color:#afc4ed;}
+.riskcolor3{color:#80b3ff;}
+
+.circlesize{font-size: 12px;padding-left:5px!important;}
+              .textsize{font-size: 12px;padding-left:5px;font-weight: 490!important;}
+
+              .divide-y-4 table tr td {
+              font-size: 12px;
+                }
+/*COMMOM PAGE CSS END*/
+
+/*horizontal stacked code start*/
+.highcharts-figure, .highcharts-data-table table {
+  min-width: 210px; 
+  max-width: 500px;
+  margin: 1em auto;
+}
+
+#container {
+  height: 160px;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #EBEBEB;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+  padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+
+/*horizontal stacked code end*/
+
+
+
+
+/*horertical  stacked code start*/
+
+.wrapperchart{
+  width:100%;
+  height:300px;
+  display:block;
+  overflow:hidden;
+  margin:0 auto;
+  padding: 10px 50px;
+  background:#fff;
+  border-radius:4px;
+ /* background-color: red;*/
+}
+
+canvas{
+  background:#fff;
+  height:400px;
+}
+
+/*horizontal stacked code end*/
+
+/*horizontal stacked code end*/
+
+/*dashboard vertical graph */
+
+
+

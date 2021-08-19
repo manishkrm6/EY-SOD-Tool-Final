@@ -1,0 +1,31 @@
+{
+  "name": "eynodegen",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --max-old-space-size=102400 ./bin/www"
+  },
+  "dependencies": {
+    "await-exec": "^0.1.2",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.5",
+    "event-stream": "^4.0.1",
+    "excel": "^1.0.1",
+    "exceljs": "^4.2.1",
+    "express": "~4.16.1",
+    "express-fileupload": "^1.2.1",
+    "helmet": "^4.3.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "moment": "^2.29.1",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "ps-node": "^0.1.6"
+  },
+  "devDependencies": {
+    "mysql-import": "^5.0.20"
+  }
+}
